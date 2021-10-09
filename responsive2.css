@@ -1,0 +1,311 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .main-contentner {
+        width: 98%;
+    }
+    .logo {
+        width: 25%;
+    }
+    .head-phone-email {
+        width: 73%;
+        margin-left: 19px;
+    }
+    .navigation {
+        width: 100%;
+    }
+    .banner-part {
+        width: 100%;
+    }
+    .content-part {
+        width: 70%;
+    }
+    .getintouch {
+        width: 28%;
+        margin-left: 19px;
+    }
+    .pro {
+        width: 24%;
+        margin-right: 12px;
+    }
+    .pro p {
+        margin-right: 12px;
+    }
+    .pro1 {
+        width: 24%;
+    }
+    .pro1 p {
+        margin-right: 12px;
+    }
+    .testimon {
+        width: 100%;
+    }
+    .footerleft {
+        width: 24%;
+        margin-right: 12px;
+    }
+    .footerright {
+        width: 24%; 
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .main-contentner {
+        width: 98%;
+    }
+    .logo {
+        width: 25%;
+    }
+    .head-phone-email {
+        width: 72%;
+        margin-left: 22px;
+    }
+    .navigation {
+        width: 100%;
+    }
+    .banner-part {
+        width: 100%;
+    }
+    .content-part {
+        width: 70%;
+    }
+    .getintouch {
+        width: 28%;
+        margin-left: 15px;
+    }
+    .pro {
+        width: 23%;
+        margin-right: 20px;
+    }
+    .pro p {
+        margin-right: 12px;
+    }
+    .pro1 {
+        width: 23%;
+    }
+    .pro1 p {
+        margin-right: 12px;
+    }
+    .testimon {
+        width: 100%;
+    }
+    .footerleft {
+        width: 23%;
+        margin-right: 18px;
+    }
+    .footerright {
+        width: 23%;
+
+    }
+}
+@media only screen and (min-width:480px) and (max-width: 767px) {
+    .main-contentner {
+        width: 90%;
+    }
+    .logo {
+        width: 100%;
+        float:none;
+        margin:auto;
+    }
+    .logo p {
+        font-size: 15px;
+    }
+    .head-phone-email {
+        width: 100%;
+        float:none;
+        margin:auto;
+    }
+    .head-phone-email p {
+        font-size: 15px;
+    }
+    .navigation {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .navigation p {
+        font-size: 15px;
+    }
+    .banner-part {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .banner-part p {
+        font-size: 15px;
+    }
+    .content-part {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .content-part p {
+        font-size: 15px;
+    }
+    .getintouch {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .getintouch p {
+        font-size: 15px;
+    }
+    .pro  {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .pro p {
+        font-size: 15px;
+    }
+    .pro1  {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .pro1 p {
+        font-size: 15px;
+    }
+    .testimon {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .testimon p {
+        font-size: 15px;
+    }
+    .footer {
+        padding: 15px;
+    }
+    .footerleft {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .footerleft  p {
+        font-size: 15px;
+    }
+    .footerright {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .footerright p {
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 479px) {
+    .main-contentner {
+        width: 90%;
+    }
+    .logo {
+        width: 100%;
+        float:none;
+        margin:auto;
+    }
+    .logo p {
+        font-size: 15px;
+    }
+    .head-phone-email {
+        width: 100%;
+        float:none;
+        margin:auto;
+    }
+    .head-phone-email p {
+        font-size: 15px;
+    }
+    .navigation {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .navigation p {
+        font-size: 15px;
+    }
+    .banner-part {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .banner-part p {
+        font-size: 15px;
+    }
+    .content-part {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .content-part p {
+        font-size: 15px;
+    }
+    .getintouch {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .getintouch p {
+        font-size: 15px;
+    }
+    .pro  {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .pro p {
+        font-size: 15px;
+    }
+    .pro1  {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .pro1 p {
+        font-size: 15px;
+    }
+    .testimon {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .testimon p {
+        font-size: 15px;
+    }
+    .footer {
+        padding: 15px;
+    }
+    .footerleft {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .footerleft  p {
+        font-size: 15px;
+    }
+    .footerright {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .footerright p {
+        font-size: 15px;
+    }
+}
+

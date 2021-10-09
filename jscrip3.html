@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 3</title>
+    
+    <script language= "JavaScript">
+        // Biến toàn cục
+        var comment = "Nội dung comment bên ngoài";
+ 
+        // Hàm có sử dụng biến toàn cục
+        function add_comment()
+        {
+            alert(comment);
+        }
+  
+        // In biến toàn cục
+        alert(comment);
+
+        
+    </script>
+</head>
+<body>
+    <script language="javascript">
+       //không sử dụng từ khóa var để tạo tên biến trong hàm
+       // thì nó sẽ sử dụng biến toàn cục nên mọi thay đổi giá trị của biến đó trong hàm sẽ bị ảnh hưởng ra ngoài hàm.
+
+      // Biến toàn cục
+      var comment = "Nội dung comment trước khi thay đổi";
+       
+      // Hàm có sử dụng biến toàn cục
+      function add_comment()
+      {
+         comment = "Nội dung comment đa bị thay đổi";
+         alert(comment);
+      }
+       
+      // Gọi fuction comment
+      add_comment();
+       
+      // In biến toàn cục
+      alert(comment);
+    </script>
+<script language= "javascript">
+//neu sử dụng từ khóa var để tạo tên biến trong hàm 
+// Biến toàn cục
+var comment = "Nội dung comment toàn cục";
+           
+           // Hàm có sử dụng biến toàn cục
+           function add_comment()
+           {
+              var comment = "Nội dung comment cục bộ";
+              alert(comment);
+           }
+            
+           // Gọi fuction comment
+           add_comment();
+            
+           // In biến toàn cục
+           alert(comment);
+            
+</script>
+</body>
+</html>

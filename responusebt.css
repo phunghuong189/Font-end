@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: o;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+.navbar {
+    background-color: rgba(121, 70, 136, 0.9) !important;
+    width: 100%;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar li a {
+    color: white !important;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.navbar li a:hover {
+    background-color: rgb(71, 70, 70) !important;
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    background-color: rgba(121, 70, 136, 0.9) !important;
+    margin-bottom: 0;
+}
+.jumbotron p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 30px ;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+.jumbotron button {
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    background-color: rgb(238, 94, 68);
+}
+.jumbotron button:hover {
+    background-color: rgb(226, 144, 37);
+}
+.container-fluid{
+    padding: 0 !important;
+   
+}
+.welcome hr {
+    border-top: 2px solid rgb(143, 187, 207);
+    width: 5%;
+    justify-content: center;
+}
+.servecie{
+    background-color: rgb(85, 196, 177);
+    padding: 0 !important;
+
+}

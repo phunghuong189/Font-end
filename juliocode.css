@@ -1,0 +1,266 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+html {
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: #eee;
+}
+ body {
+     width: 100%;
+     height: 100%;
+     background: url(mau-background.jpg) no-repeat center;
+     background-size: cover;
+ }
+ a {
+     text-decoration: none;
+     color: #eee;
+     font-size: 1.5rem;
+}
+img {
+    width: 100%;
+}
+header {
+    width: 90%;
+    height: 20rem;
+}
+.top.nav {
+    width:80%;
+    position: fixed;
+    top: 3rem;
+    left: 1rem;
+    text-align: center;
+    background-color: #16162d;
+    border-bottom-right-radius: 90%;
+    border-bottom-left-radius: 90%;
+    transition: all 650ms cubic-bezier(1, 0, 0, 1);
+}
+.nav-list {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+li {
+    margin: 0 1rem;
+}
+.nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+    padding: 1rem;
+}
+.langding-text {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #646363d3;
+    font-size: 3rem;
+}
+.nav-link:hover {
+    border-radius: 0.5rem;
+    color: #eee;
+    background: linear-gradient(to top, #ffe838, #fd57bf );
+}
+.menu-toggler {
+    position: absolute;
+    top: 7rem;
+    right: 5rem;
+    width: 5rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 1500;
+    transition: 0.4s;
+}
+
+.menu-toggler.open {
+    transform: rotate(-45deg);
+}
+section {
+    bottom: 5rem;
+}
+h1 {
+    color: #2e2828e8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* tạo màu chữ đẹp */
+    background: linear-gradient(to top, #abf02c, #ff79bc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.5rem;
+}
+h2 {
+    background: linear-gradient(to top, #6e62e0, #dd5138e3);
+    color: #2e2828e8;
+    /* tạo mà chữ đẹp */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3 {
+    font-size: 2.4rem;
+}
+h5 {
+    color: rgba(95, 108, 121, 0.966);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    color: #4b4848f3;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bar {
+    background: linear-gradient(to right,  #ffe838, #fd57bf );
+    width: 100%;
+    height: 4px;
+    border-radius: 1rem;
+}
+.bar-haft {
+    width: 50%;
+}
+.bar-start {
+    transform-origin: right;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-heading {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+}
+.about-heading h1 {
+    font-size: 7rem;
+    opacity: 3;
+}
+.about-heading h6 {
+    font-size: 1.5rem;
+}
+.profile-img {
+    width: 120%;
+    margin-right: 4rem;
+}
+.about .social-media {
+    font-size: 2rem;
+}
+.about .social-media a {
+    padding-right: 3rem;
+    font-size: 2.2rem;
+}
+.sevices {
+    margin: 5rem auto;
+    text-align: center;
+    font-size: 3rem;
+}
+.sevices i {
+    border: 2.5px solid #a2ee70;
+    background-color: #dd7bb7e3;
+    transform: rotate(45deg);
+    color: rgba(93, 95, 94, 0.932);
+}
+.sevices .skill {
+    margin-bottom: 2rem;
+}
+.portfolio .container {
+    margin: 5rem auto;
+    text-align: center;
+    font-size: 3rem;
+} 
+.portfolio .portfolio-item  {
+    margin: 3rem 0;
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid rgba(95, 108, 121, 0.966);
+    padding-bottom: 1rem;
+}
+.portfolio .portfolio-img1 {
+    width: 55%;
+}
+ .portfolio .portfolio-description1 {
+     text-align: center;
+     margin: auto;
+     width: 30%;
+}
+
+.portfolio .portfolio-img2 {
+    width: 55%;
+}
+ .portfolio .portfolio-description2 {
+     text-align: center;
+     margin: auto;
+     width: 30%;
+}
+
+.portfolio .portfolio-img3 {
+    width: 55%;
+}
+ .portfolio .portfolio-description3 {
+     text-align: center;
+     margin: auto;
+     width: 30%;
+}
+.experience {
+    margin: 5rem auto;
+    font-size: 3rem;
+}
+.time-line .date {
+    display: flex;
+    position: relative;
+}
+.time-line .date h3 {
+    width: 30%;
+
+}
+.time-line .date p {
+    width: 80%;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+form {
+    margin-bottom: 3rem;
+}
+form label {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+}
+input {
+    width: 10%;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border: none;
+}
+input#name {
+    width: 20%;
+}
+input#email {
+    width: 20%;
+}
+input.submit {
+    margin: 0 3rem;
+}
+select {
+    width: 10%;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border: none;
+}
+textarea {
+    width: 10%;
+    max-height: 100px;
+    padding: 1rem;
+    margin-bottom: -18px;
+    border: none;
+}
+div.section-heading {
+    margin: 3rem auto;
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascrip  </title>
+
+    <script language="javascript">
+                      //KHAI BÁO MẢNG TRONG JAVASCRIPT
+        //Khai báo bằng dấu []
+        var arr = [value1, value2, valuen];
+
+        //Khai báo bằng new Array()
+        var arr = new Array(value1, value2, valuen);
+
+        //truy xuất mảng
+        var arr = new Array(1, 2, 4, 5, 9, 6);
+        lert(arr[1]);
+        //result: 2
+
+
+                     //CÁC HÀM XỬ LÍ MẢNG TRONG JAVASCRIPT//
+
+        //Length: Đây là một thuộc tính trong mảng, trả về số lượng phần tử đang có trong mảng.
+        var arr = new Array(1, 2, 4, 5, 9, 6);
+        alert(arr.length);
+
+        //Hàm join(): Hàm này có tác dụng gộp tất cả các phần tử có trong mảng thành một chuỗi.
+        //gộp mảng mặc định
+        document.write(arr.join() + '<br>');
+        //result: 1,2,4,5,9,6
+        //gộp mảng ngăn cách nhau bằng -
+        document.write(arr.join('-') + '<br>');
+        //result: 1-2-4-5-9-6
+
+        //Hàm push(): Hàm này có tác dụng thêm một hoặc nhiều phần tử vào cuối mảng.
+        var arr = new Array(1, 2, 4, 5, 9, 6);
+        document.write(arr.join() + '<br>');
+        //thêm 7 vào mảng
+        arr.push(7);
+        document.write(arr.join() + '<br>');
+        //thêm 3,8 vào mảng
+        arr.push(3,8);
+        document.write(arr.join() + '<br>');
+
+        //Hàm pop(): Hàm này có tác dụng xóa phần tử cuối cùng trong mảng.
+        var arr = new Array(1, 2, 4, 5, 9, 6);
+        document.write(arr.join() + '<br>');
+        //xóa phần tử cuối
+        arr.pop();
+        document.write(arr.join() + '<br>');
+
+        //Hàm unshift() : Hàm này có tác dụng thêm một hoặc nhiều phần tử vào đầu mảng. 
+        var arr = new Array(1, 2, 4, 5, 9, 6);
+        document.write(arr.join() + '<br>');
+        //thêm 7 vào mảng
+        arr.unshift(7);
+        document.write(arr.join() + '<br>');
+        //thêm 3,8 vào mảng
+        arr.unshift(3, 8);
+        document.write(arr.join() + '<br>');
+
+        //Hàm splice() : Hàm này có tác dụng thêm phần tử vào mảng theo một vị trí xác định.
+        arr.splice(index, howmany, item1, itemX);
+
+        //Hàm concat() : Hàm này có tác dụng ghép 2 mảng lại với nhau.
+        var arr1 = new Array(1, 2, 4, 5, 9, 6);
+        var arr2 = new Array(3, 8, 7);
+        document.write(arr1.concat(arr2) + '<br>');
+
+        //Hàm slice() : Hàm này có tác dụng lấy ra một hoặc một số phần tử trong mảng.
+        var arr = new Array(1, 2, 4, 5, 9, 6);
+        document.write(arr.join() + '<br>');
+        //cắt mảng từ vị trí thứ 3 đến hết
+        ocument.write(arr.slice(3) + '<br>');
+
+        //Hàm sort() : Hàm này có tác dụng sắp xếp lại mảng theo chiều tăng dần, nếu là số thì từ bé đến lớn, chữ thì sắp xếp theo alpha(a-z)
+        var arr = new Array(1, 2, 4, 5, 9, 6);
+        document.write(arr.join() + '<br>');
+        //sắp xếp lại mảng
+        document.write(arr.sort() + '<br>');
+
+        //Hàm reverse() : Hàm này có tác dụng đảo ngược vị trí các phần tử của mảng.
+        var arr = new Array(1, 2, 4, 5, 9, 6);
+        document.write(arr.join() + '<br>');
+        //cắt mảng từ vị trí thứ 3 đến hết
+        ocument.write(arr.reverse() + '<br>');
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

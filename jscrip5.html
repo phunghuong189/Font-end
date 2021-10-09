@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Funtion </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+   
+</head>
+
+<body>
+    <script>
+        function tinhtbc(x,y) {
+            var z = (x+y)/2;
+            return z;
+        }
+        console.log(tinhtbc(18,9));
+        if(tinhtbc(18,9) <6) {
+            console.log("Trung bình cộng nhỏ hơn 6");        
+        } else {
+            console.log("Trung bình cộng lớn hơn 6");   
+        }
+
+
+        //closure function 
+        function chao() {
+            var ten = "Hường";
+            return function() {
+                console.log("Uống trà sữa không " + ten + "? <3");
+            }
+        }
+        var h = chao();
+        h();
+
+
+    //khai báo constructor
+    function MonAn(t, nl, g) {
+        this.ten = t;
+        this.nguyenlieu = nl;
+        this.gia = g;
+    }
+    var mon1 = new MonAn("sườn xào", "sườn", "50k");
+    var mon2 = new MonAn("thịt kho", "thịt", "40k");
+    var mon3 = new MonAn("gà sốt nấm", "gà", "30k");
+    console.log(mon1);
+    console.log(mon2);
+    console.log(mon3);
+    
+
+    //2 cách viết tương đương nhau
+    var v1 = function() { console.log("hello "); }
+    v1();
+    var v2 = () =>  { console.log("hello "); }
+    v2();
+    
+    </script>
+</body>
+
+</html>

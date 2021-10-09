@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 2</title>
+    <script language = "JavaScript">
+        var a; //khai bao mac dinh la kieu String.
+        var b;
+        a = prompt("nhap so a", "0"); //show noi dung ra man hinh kem 1 o input cho ta nhap vao noi dung.
+        b = prompt("nhap so b", "0");
+        
+        if ( a==b) {
+            alert('a va b bang nhau'); //show noi dung ra man hinh
+        }
+        else {
+            alert('a khong bang b');
+        }
+
+        //vong lap for
+
+        for(var i=1; i<=100; ++i) {
+            document.writeln(i);
+        }
+
+        //swicth-case
+        var number = parseInt(prompt("Nhập số cần kiểm tra")); //doi sang kieu du lieu Integer
+ 
+        var mod = (number % 2);
+ 
+        switch (mod)
+        {
+            case 0 : {
+            document.writeln(number + " là số chẵn");
+            break;
+        }
+            case 1: {
+            document.writeln(number + " là số lẽ");
+            break;
+        }
+        default : {
+            document.writeln("Ký tự bạn nhập không phải số");
+        }
+    }
+
+    // Tạo hàm
+    var number = 2;
+ 
+if (number % 2 == 0){
+   alert('Số chẵn');
+}
+else {
+   alert('Số lẻ');
+}
+//Giả sử mình cần kiểm tra cho 100 số,
+// như vậy mình cứ viết if else cho 100 lần quá nản phải không nào 
+// Để giải quyết nó ta dung ham "funtion".
+
+function check_number(number)
+{
+    if (number % 2 == 0){
+        alert(number + ' là số chẵn');
+    }
+    else {
+        alert(number + 'Số lẻ');
+    }
+}   
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

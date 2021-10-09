@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+       <title> Thay đổi ảnh </title>
+
+    <script>
+        $(document).ready(function () {
+
+                var btb = document.getElementById('btbChangeImage');
+                btb.onclick = ChangeImage;
+        });
+
+        var CurrentImage = 1;
+        function ChangeImage() {
+                if(CurrentImage == 1)
+                 {
+                    $('#hinh').attr("src", "./huong1.jpg");
+                   CurrentImage = 2;
+                 }
+                else {
+                    if(CurrentImage == 2)
+                    {
+                        $('#hinh').attr("src", "./huong2.jpg");
+                   CurrentImage = 3;
+                    }
+                    else {
+                    $('#hinh').attr("src", "./huong4.jpg");
+                   CurrentImage = 1;
+                    }
+                }
+                
+            };
+    </script>
+</head>
+<body>
+    <button  style="margin: 10px 5px; position: fixed;" id="btbChangeImage">Biến hình</button>
+
+    <img id="hinh" style="max-width: 1000px; max-height: 800px; margin: 50px 20px;" src="./huong2.jpg">
+</body>
+</html>

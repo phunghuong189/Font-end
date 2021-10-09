@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cmt {
+    display: flex;
+}
+.cmt img {
+    width: 56px;
+    height: 56px;
+    padding-top: 5px;
+}
+.cmt b {
+    font-size: 14px;
+    color: #365899;
+}
+.cmt span {
+    font-size: 14px;
+}
+.img {
+    width: 56px;
+    height: 56px;
+    object-fit:fill;
+}
+.text {
+    margin-top: 10px;
+    margin-left: 5px;
+}
